@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel = "stylesheet" href = "style1.css">
+    </head>
+    <body>
+        <header>
+            <h1>Michael Lee</h1>
+            <div class="button-container">
+                <button class="button" onclick = "goHome()">HOME</button>
+                <button class="button" onclick = "goToPort()">PORTFOLIO</button>
+                <button class="button" onclick = "goToResume()">RESUME</button>
+                <button class="button" onclick = "goToService()">SERVICE</button>
+                <button class="button" onclick = "goToAI()">GENAI</button>
+            </div>
+        </header>
+        
+        <script>
+            function goToResume(){
+                window.location.href = 'qualifications.html';
+            }
+            function goHome(){
+                window.location.href = 'index.html';
+            }
+            function goToPort(){
+                window.location.href = 'portfolio.html';
+            }
+            function goToService(){
+                window.location.href = 'service.html';
+            }
+            function goToAI(){
+                window.location.href = 'genai.html';
+            }
+        </script>
+        
+    </body>
+</html>

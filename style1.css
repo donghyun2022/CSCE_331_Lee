@@ -1,0 +1,93 @@
+/* style1.css */
+
+/* Body and general page styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5dc; 
+}
+
+/* Header styling */
+header {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: #800000; 
+}
+
+/* Title styling */
+h1 {
+    margin: 0;
+    font-size: 36px;
+    font-family: 'Cursive', sans-serif;
+    background: linear-gradient(to right, #800000, #ffffff);
+    -webkit-background-clip: text;
+    color: transparent;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+    letter-spacing: 2px;
+}
+
+/* Button container */
+.button-container {
+    margin-left: auto;
+    display: flex;
+    gap: 10px;
+}
+
+/* Button styling */
+.button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 20px;
+    background-color: #800000; 
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Button hover effect */
+.button:hover {
+    background-color: #660000; 
+    box-shadow: 3px 6px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Image container styling */
+.image-container {
+    text-align: left;
+    margin-top: 10px;
+    float: left;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+/* Image styling */
+img {
+    width: 500px;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Speech bubble styling */
+.speech-bubble {
+    position: relative;
+    display: inline-block;
+    background-color: #ffffff; 
+    padding: 30px;
+    border-radius: 15px;
+    font-size: 18px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 10px;
+    max-width: 840px;
+    margin-right: 10px;
+    word-wrap: break-word;
+    overflow: auto;
+    border: 2px solid #800000; 
+}
+
+/* Speech bubble heading */
+.speech-bubble h2 {
+    color: #800000; 
+}
